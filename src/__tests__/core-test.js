@@ -13,6 +13,7 @@
 /*global jest, describe, it, expect*/
 
 const core = require('../core');
+const run = require('../Runner').run;
 const recast = require('recast');
 const b = recast.types.builders;
 const NodePath = recast.types.NodePath;
